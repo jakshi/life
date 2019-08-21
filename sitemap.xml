@@ -3,32 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//lysenko.dev/tags/dark-mode/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//lysenko.dev/post/disable-macosx-dark-mode-for-specific-app/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//lysenko.dev/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//lysenko.dev/tags/macosx/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//lysenko.dev/post/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//lysenko.dev/tags/</loc>
+    <lastmod>2019-08-21T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//lysenko.dev/post/chicken-soup/</loc>
     <lastmod>2019-06-22T17:23:23+07:00</lastmod>
   </url>
   
   <url>
-    <loc>//lysenko.dev/</loc>
-    <lastmod>2019-06-22T17:23:23+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//lysenko.dev/post/</loc>
-    <lastmod>2019-06-22T17:23:23+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//lysenko.dev/tags/</loc>
-    <lastmod>2019-06-22T17:23:23+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>//lysenko.dev/tags/food/</loc>
     <lastmod>2019-06-22T17:23:23+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -39,7 +50,6 @@
   <url>
     <loc>//lysenko.dev/tags/productivity/</loc>
     <lastmod>2019-06-16T16:08:40+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,7 +60,6 @@
   <url>
     <loc>//lysenko.dev/tags/yearly-sum-up/</loc>
     <lastmod>2019-06-04T21:54:00+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -71,7 +80,6 @@
   <url>
     <loc>//lysenko.dev/tags/happiness/</loc>
     <lastmod>2016-07-04T22:17:54+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -101,7 +109,6 @@
   
   <url>
     <loc>//lysenko.dev/topics/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
