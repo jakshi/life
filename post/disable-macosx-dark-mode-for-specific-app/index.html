@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
 
   <title>Disable MacOS X dark mode for specific application &middot; Kostiantyn Lysenko&#39;s casual blog</title>
 
@@ -265,37 +265,23 @@
 </div>
 
   <h1 id="intro">Intro</h1>
-
-<p>I use some KDE applications on my Macbook Pro.<br />
-And some of them looks very bad with MacOS X dark mode.<br />
+<p>I use some KDE applications on my Macbook Pro.<br>
+And some of them looks very bad with MacOS X dark mode.<br>
 So I would like to disable dark mode for those specific applications.</p>
-
 <h1 id="howto">Howto</h1>
-
 <p>First I need to find out a Bundle identifier of the application.</p>
-
 <pre><code>$ sudo find / -iname kmymoney.app 2&gt;&amp;1 | grep -v &quot;Operation not permitted&quot;
 /usr/local/Cellar/kmymoney/5.0.6_1/bin/kmymoney.app
 $ cd /usr/local/Cellar/kmymoney/5.0.6_1/bin/kmymoney.app/Contents/
 $ $ cat Info.plist |grep -A 1 CFBundleIdentifier
 	&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
 	&lt;string&gt;org.kde.KMyMoney&lt;/string&gt;
-</code></pre>
-
-<p>so bundle identifier is <code>org.kde.KMyMoney</code></p>
-
+</code></pre><p>so bundle identifier is <code>org.kde.KMyMoney</code></p>
 <p>Then let&rsquo;s disable dark mode for KMyMoney:</p>
-
 <pre><code>defaults write org.kde.KMyMoney NSRequiresAquaSystemAppearance -bool yes
-</code></pre>
-
-<p>if we would need to enable it back - we would need to execute:</p>
-
+</code></pre><p>if we would need to enable it back - we would need to execute:</p>
 <pre><code>defaults write org.kde.KMyMoney NSRequiresAquaSystemAppearance
-</code></pre>
-
-<h1 id="references">References</h1>
-
+</code></pre><h1 id="references">References</h1>
 <ul>
 <li><a href="https://www.techjunkie.com/exclude-app-dark-mode-macos-mojave/">How to Exclude an App From Dark Mode in macOS Mojave</a></li>
 <li><a href="https://www.reddit.com/r/apple/comments/9jr2zy/how_to_enable_mojave_dark_mode_for_applications/">Reddit: How to enable Mojave dark mode for applications that don&rsquo;t support it</a></li>

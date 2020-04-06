@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>macosx on Kostiantyn Lysenko&#39;s casual blog</title>
@@ -19,9 +19,8 @@
       
       <guid>//lysenko.dev/post/disable-macosx-dark-mode-for-specific-app/</guid>
       <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
-
-&lt;p&gt;I use some KDE applications on my Macbook Pro.&lt;br /&gt;
-And some of them looks very bad with MacOS X dark mode.&lt;br /&gt;
+&lt;p&gt;I use some KDE applications on my Macbook Pro.&lt;br&gt;
+And some of them looks very bad with MacOS X dark mode.&lt;br&gt;
 So I would like to disable dark mode for those specific applications.&lt;/p&gt;</description>
     </item>
     
